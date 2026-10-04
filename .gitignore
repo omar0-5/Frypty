@@ -221,3 +221,8 @@ __marimo__/
 
 .venv/
 __pycache__/
+# vtc pipeline outputs
+out/
+*.wav
+*.mov
+transcript.json
