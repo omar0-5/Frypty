@@ -1,0 +1,18 @@
+style: channel-dark.yaml
+segments:
+  - line: "Nvidia's revenue tripled in two years."
+    chart:
+      type: line
+      ticker: NVDA
+      metric: revenue
+      range: 2023-2025
+
+  - line: "AMD grew too, but far more slowly."
+    chart:
+      type: line
+      ticker: AMD
+      metric: revenue
+      range: 2023-2025
+
+  - line: "Here's what that means for 2026."
+    chart: none
