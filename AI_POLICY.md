@@ -34,7 +34,26 @@ def merge_short_segments(segments, min_len=0.3):
 # shorter than min_len seconds into the previous segment"
 ```
 
+## 3. Flag AI-generated code that I reviewed
+
+If I have read and reviewed the AI-generated code in a commit myself, the commit message must also include this flag, on the line after the first one:
+
+```
+**REVIEWED AI GENERATED CODE**
+```
+
+Example:
+
+```
+add word-alignment fallback for short clips
+
+**CONTAINS AI GENERATED CODE**
+**REVIEWED AI GENERATED CODE**
+```
+
+A commit with only the first flag means the AI-generated code in it has not been reviewed yet.
+
 ## Scope
 
 - Commits made before 5 October 2026 are not covered by this policy.
-- Code written entirely by hand needs no flag and no prompt comment.
+- Code written entirely by hand needs no flags and no prompt comment.
